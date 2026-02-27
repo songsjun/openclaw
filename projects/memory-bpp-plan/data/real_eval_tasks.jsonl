@@ -1,0 +1,5 @@
+{"id":"fact_a","prompt":"你是评测任务执行器。请只输出一行，格式必须是：EVAL_FACT_A=<value>。从 memory 中检索键 EVAL_FACT_A 对应的值。不要输出任何解释。","expected_regex":"EVAL_FACT_A=AXIS-7429"}
+{"id":"fact_b","prompt":"你是评测任务执行器。请只输出一行，格式必须是：EVAL_FACT_B=<value>。从 memory 中检索键 EVAL_FACT_B 对应的值。不要输出任何解释。","expected_regex":"EVAL_FACT_B=ORBIT-4402"}
+{"id":"fact_c","prompt":"你是评测任务执行器。请只输出一行，格式必须是：EVAL_FACT_C=<value>。从 memory 中检索键 EVAL_FACT_C 对应的值。不要输出任何解释。","expected_regex":"EVAL_FACT_C=PATCH-7719"}
+{"id":"rank_target","prompt":"你是评测任务执行器。请只输出一行，格式必须是：RANK_TARGET=<value>。从 memory 中检索键 RANK_TARGET 对应的值。不要输出任何解释。","expected_regex":"RANK_TARGET=RIGHT-9999"}
+{"id":"sanity_math","prompt":"你是评测任务执行器。请只输出一行：SUM=42。不要输出任何解释。","expected_regex":"SUM=42"}
